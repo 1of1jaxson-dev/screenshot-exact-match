@@ -143,6 +143,8 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+:root { --background: oklch(0.15 0.01 260); --foreground: oklch(0.96 0 0); --card: oklch(0.2 0.01 260); --border: oklch(0.3 0.01 260); }
+
 @layer base {
   * {
     border-color: var(--color-border);
